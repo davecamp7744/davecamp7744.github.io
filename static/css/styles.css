@@ -1,0 +1,153 @@
+/*
+  Cuerpo
+  */
+html {
+  /* background-image: radial-gradient(circle at 50% 77.43%, #dc6e00 0, #da5b02 16.67%, #d33f02 33.33%, #c40000 50%, #b40001 66.67%, #a90006 83.33%, #a20011 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+  color: #330092;
+  background-color: #f0f0f0;
+}
+/*
+globo
+*/
+/* .globo {
+  background: rgb(60, 28, 136);
+  width: auto;
+  color: #fff;
+} */
+.enviar{
+  width: 200px;
+  padding: 10px;
+  background-color: #03093a;
+  color: #f0f0f0;
+  border-color: #09f1e6;
+}
+.enviar:hover{
+  background-color: #f0f0f0;
+  color: #03093a;
+}
+
+.entrada{
+  width: 500px;
+  margin-left: 20px;
+  border-color: #03093a;
+  border-radius: 5px;
+}
+
+.comentarios{
+  width: 400px;
+}
+
+.comentarios .comentario{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.comentarios .comentario p{
+  margin: 0 0 10px 0;
+}
+
+.burbuja{
+  position: relative;
+  background-color: #03093a;
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.burbuja:after{
+  content: "";
+  display: block;
+  position: absolute;
+
+  top: 15px;
+  margin-left: -35px;
+
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+
+  border-right: 15px solid #03093a;
+}
+/*
+Botones
+*/
+button {
+  margin: 20px;
+  overflow: visible;
+  border-color: #f12409;
+
+}
+
+.custom-btn {
+  width: auto;
+  height: 40px;
+  color: #09f1e6;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
+
+/* 16 */
+.btn-16 {
+  border: none;
+  color: #000;
+}
+
+.btn-16:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+
+.btn-16:hover {
+  color: #000;
+}
+
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+
+.btn-16:active {
+  top: 2px;
+}
+
+/*
+Centrar chat
+*/
+.centrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background: rgb(71, 10, 10); */
+  text-align: center;
+}
