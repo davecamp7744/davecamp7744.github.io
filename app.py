@@ -5,8 +5,6 @@ global usuario
 @app.route("/get")
 def get_bot_response():
     user_text = request.args.get('msg')
-    # Aquí es donde puedes integrar la lógica de tu chatbot
-    # En este ejemplo, simplemente devolveremos una respuesta genérica
     usuario = user_text
     return "Hola: " + user_text + " un gusto ahora puedes comenzar"
 
